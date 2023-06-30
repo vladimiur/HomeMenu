@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HomeMenu.Dinosaurio"
+             Title="Dinosaurio">
+    <VerticalStackLayout>
+        
+        <Image Source="kg.png" 
+            SemanticProperties.Description="Cute dot net bot waving hi to you!"
+            HeightRequest="200"
+            HorizontalOptions="Center"/>
+
+        <Label 
+            Text="Centimetros"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="30"/>
+        <Entry Placeholder="Peso" x:Name="pes" FontSize="20" HorizontalOptions="Center" WidthRequest="300" Margin="20"/>
+        <Entry Placeholder="Altura" x:Name="altu" FontSize="20" HorizontalOptions="Center" WidthRequest="300" Margin="20"/>
+        <Entry Placeholder="Respuesta" x:Name="respu" FontSize="20" HorizontalOptions="Center" WidthRequest="300" Margin="20"/>
+        <Button Text="Calcular" x:Name="btncalcul" BackgroundColor="DarkBlue" TextColor="GhostWhite" CornerRadius="10" Margin="30" FontSize="20" Clicked="btncalcul_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

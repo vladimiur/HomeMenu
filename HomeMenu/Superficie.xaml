@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HomeMenu.Superficie"
+             Title="Superficie">
+    <VerticalStackLayout>
+        
+        <Image Source="angu.png" 
+           SemanticProperties.Description="Cute dot net bot waving hi to you!"
+           HeightRequest="200"
+           HorizontalOptions="Center"/>
+        
+        <Label 
+            Text="Superficie"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="30"/>
+        <Entry Placeholder="Base" x:Name="Xbase" FontSize="20" HorizontalOptions="Center" WidthRequest="300" Margin="20"/>
+        <Entry Placeholder="Altura" x:Name="Xaltura" FontSize="20" HorizontalOptions="Center" WidthRequest="300" Margin="20"/>
+        <Entry Placeholder="Superficie" x:Name="resp" FontSize="20" HorizontalOptions="Center" WidthRequest="300" Margin="20"/>
+        <Button Text="Calcular" x:Name="CLrespuestas"  BackgroundColor="Red" TextColor="GhostWhite" CornerRadius="10" Margin="30" FontSize="20" Clicked="CLrespuestas_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

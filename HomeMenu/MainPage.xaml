@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="cIr-namespace:HomeMenu"
+             x:Class="HomeMenu.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Background="#1F466C"
+            Spacing="25"
+            Padding="30,0"
+            VerticalOptions="Center">
+
+            <Image Source="carro.png" 
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="100"
+                HorizontalOptions="Center"/>
+            <Label
+                Text="Cambio"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center"/>
+            <Button Text="Ejercio 1"  BackgroundColor="#50BABE" TextColor="White" CornerRadius="15" Clicked="btnvuelto_Clicked"/>
+
+            <Image Source="trian.png" 
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="100"
+                HorizontalOptions="Center"/>
+            <Label
+                Text="Superficie"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center"/>
+            <Button Text="Ejercio 2"  BackgroundColor="#F44B3D" TextColor="White" CornerRadius="15" Clicked="Button_Clicked"/>
+
+            <Image Source="dino.png" 
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="100"
+                HorizontalOptions="Center"/>
+            <Label
+                Text="Peso"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center"/>
+            <Button Text="Ejercicio 3"  BackgroundColor="#32D51C" TextColor="White" CornerRadius="15" Clicked="Button_Clicked_1"/>
+
+            <Image Source="gaso.png" 
+                SemanticProperties.Description="Cute dot net bot waving hi to you!"
+                HeightRequest="100"
+                HorizontalOptions="Center"/>
+            <Label
+                Text="Galon_Gasolina"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="32"
+                HorizontalOptions="Center"/>
+            <Button Text="Ejercio 4" BackgroundColor="#E49100" TextColor="White" CornerRadius="15" Clicked="Button_Clicked_2"/>
+
+            
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

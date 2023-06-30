@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HomeMenu.Gaasolinera"
+             Title="Gasolinera">
+    <VerticalStackLayout>
+        
+        <Image Source="galon.png" 
+               SemanticProperties.Description="Cute dot net bot waving hi to you!"
+               HeightRequest="200"
+               HorizontalOptions="Center"/>
+
+        <Label 
+            Text="Galones"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" 
+            FontSize="30"/>
+        <Entry Placeholder="Litros" x:Name="litro" FontSize="20" HorizontalOptions="Center" WidthRequest="300" Margin="20"/>
+        <Entry Placeholder="Galones" x:Name="galon" FontSize="20" HorizontalOptions="Center" WidthRequest="300" Margin="20"/>
+        <Button Text="Calcular" x:Name="btncalcular" BackgroundColor="DarkMagenta" TextColor="GhostWhite" CornerRadius="10" Margin="30" FontSize="20" Clicked="btncalcular_Clicked"/>
+
+    </VerticalStackLayout>
+</ContentPage>
